@@ -1,0 +1,73 @@
+body{
+    background-color: lightcoral;
+}
+.ani2{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 90px;
+    height: 70px;
+    animation-name: ane;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ane{
+    To {
+        transform: translateX(150px);
+    }
+}
+
+
+.ani3{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    height: 70px;
+    margin-top: 100px;
+    border-radius: 10px;
+    animation-name: anee;
+    animation-duration: 5s;
+    animation-iteration-count: 30;
+}
+
+@keyframes anee{
+    From {
+        transform: rotateY(150deg);
+    }
+}
+
+.ani4{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    height: 70px;
+    margin-top: 100px;
+    animation-name: ann;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes ann{
+    40% {
+        background-color: red;
+    }
+
+    20%{
+        background-color: chartreuse;
+    }
+    to {
+        transform: translateX(100px);
+    }
+}
+
+
